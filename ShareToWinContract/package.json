@@ -1,0 +1,22 @@
+{
+  "name": "nft-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Rafia Tapia",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "@truffle/hdwallet-provider": "^1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.4",
+    "web3": "^1.3.4"
+  }
+}
