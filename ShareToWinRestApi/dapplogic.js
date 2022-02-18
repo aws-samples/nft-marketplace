@@ -3,7 +3,7 @@ import Web3 from 'web3';
 import jsonInterface from "./contractAbi.js";
 import providerGenerator from './contractProvider.js';
 import DbLogicObject from './dblogic.js';
-import utilityObject from './utility.js'
+
 
 export default class DAppObject {
 
@@ -12,7 +12,6 @@ export default class DAppObject {
 
         let AdminAccount;
         this.db = new DbLogicObject();
-        this.utillib = new utilityObject();
         this.registeredUsers = [];
         this.ethereumAddress = [];
         this.NetworkID="";
