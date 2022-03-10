@@ -6,7 +6,8 @@ This repo contains the demo code from the NFT marketplace application discussed 
 ## Prerequisites
 
 1. [Node.js](https://nodejs.org)
-2. AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+2. An active AWS account
+3. AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 
 ## Setup
 
