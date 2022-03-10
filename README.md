@@ -13,14 +13,14 @@ This repo contains the demo code from the NFT marketplace application discussed 
 Clone the repository and run:
 
 ```console
-npm install -g ganache-cli truffle
-cd ShareToWinContract
-npm install
-../cd ShareToWinRestApi
-npm install
-../cd ShareToWinWeb
-npm install
-aws dynamodb create-table --table-name ShareToWin --attribute-definitions AttributeName=AssetID,AttributeType=N --key-schema AttributeName=Artist,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 --table-class STANDARD
+$ npm install -g ganache-cli truffle
+$ cd ShareToWinContract
+$ npm install
+$ ../cd ShareToWinRestApi
+$ npm install
+$ ../cd ShareToWinWeb
+$ npm install
+$ aws dynamodb create-table --table-name ShareToWin --attribute-definitions AttributeName=AssetID,AttributeType=N --key-schema AttributeName=Artist,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 --table-class STANDARD
 ```
 
 ## Run
