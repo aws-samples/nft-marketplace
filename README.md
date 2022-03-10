@@ -47,17 +47,17 @@ The migrate command will deploy the smart contract on ganache development networ
 
         Deploying 'AssetToken'
    ----------------------
-   > transaction hash:    0xd20be4f8f7126f40ab66d11efac49ec260db251375bd11e729dd658373ecebe8
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x0b10d5619d36aeF3ab9eD509196D7937F842a882
-   > block number:        3
-   > block timestamp:     1644449968
-   > account:             0x3d46282D895a9e4Ba8Cb081fbcd6fA2Dd2844e62
-   > balance:             99.91223912
-   > gas used:            4096677 (0x3e82a5)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.08193354 ETH
+    transaction hash:    0xd20be4f8f7126f40ab66d11efac49ec260db251375bd11e729dd658373ecebe8
+    Blocks: 0            Seconds: 0
+    contract address:    0x0b10d5619d36aeF3ab9eD509196D7937F842a882
+    block number:        3
+    block timestamp:     1644449968
+    account:             0x3d46282D895a9e4Ba8Cb081fbcd6fA2Dd2844e62
+    balance:             99.91223912
+    gas used:            4096677 (0x3e82a5)
+    gas price:           20 gwei
+    value sent:          0 ETH
+    total cost:          0.08193354 ETH
 
 3. On the third terminal window make sure you are in the ShareToWinRestApi folder. Copy the contract address that is displayed on the second terminal when you ran the migrate truffle command into the envExport.sh file and run the following commands
 
