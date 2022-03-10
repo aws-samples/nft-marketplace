@@ -10,7 +10,7 @@ This repo contains the demo code from the NFT marketplace application discussed 
 
 ## Setup
 
-Clone the repository and run:
+Clone the repository and run the following commands to setup the code ($ is not part of the command):
 
 ```console
 $ npm install -g ganache-cli truffle
