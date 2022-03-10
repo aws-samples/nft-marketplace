@@ -1,7 +1,10 @@
 # Full Stack NFT Marketplace Application
 
 
-This repo contains the demo code from the NFT marketplace application discussed on the blog [url of the blog, entered later]. 
+This repo contains the demo code from the NFT marketplace application discussed on the blogs:
+
+> https://aws.amazon.com/blogs/database/part-1-develop-a-full-stack-serverless-nft-application-with-amazon-managed-blockchain/
+> https://aws.amazon.com/amazon.com/blogs/database/part-2-develop-a-full-stack-serverless-nft-application-with-amazon-managed-blockchain/ 
 
 ## Prerequisites
 
