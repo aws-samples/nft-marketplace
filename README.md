@@ -30,7 +30,7 @@ Open four terminal windows.
 1. On the first terminal window make sure you are in the ShareToWinContract folder. Run the following command to start Ganache development server by running the ganache-cli
 
 ```console
-$ npx ganache-cli  --acctKeys ../ShareToWinRestApi/ethaccounts.json
+npx ganache-cli  --acctKeys ../ShareToWinRestApi/ethaccounts.json
 ```
 2. On the second terminal window make sure you are in the ShareToWinContract folder. Run the following command to start truffle console.
 
@@ -62,8 +62,8 @@ The migrate command will deploy the smart contract on ganache development networ
 3. On the third terminal window make sure you are in the ShareToWinRestApi folder. Copy the contract address that is displayed on the second terminal when you ran the migrate truffle command into the envExport.sh file and run the following commands
 
 ```console
-$ source envExport.sh
-$ npx nodemon --delay 1000ms index.js
+source envExport.sh
+npx nodemon --delay 1000ms index.js
 ```
 
 This will start the express web server and listen on port 4080
@@ -71,7 +71,7 @@ This will start the express web server and listen on port 4080
 4. On the fourth window make sure you are in the ShareToWinWeb folder. Start the react web front end by entering the command
 
 ```console
-$ npm run start
+npm run start
 ```
 
 ## License Summary
