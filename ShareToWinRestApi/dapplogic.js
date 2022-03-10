@@ -18,7 +18,6 @@ export default class DAppObject {
         this.ChainID="";
 
         if (process.env.APPNETWORK === 'AWS') {
-            //this.assetTokenContract = new this.web3obj.eth.Contract(jsonInterface.abi, process.env.CONTRACTADDRESS, { from: process.env.ACCOUNTADDRESS, gasPrice: '20000000000', gas: 5000000 });
             this.assetTokenContract = new this.web3obj.eth.Contract(jsonInterface.abi, process.env.CONTRACTADDRESS);
         }
         else {
