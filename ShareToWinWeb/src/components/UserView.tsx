@@ -93,7 +93,7 @@ export default class UserView extends React.Component<IUserProp, IUserViewState>
       this.props.updateUserList(adduserResult);
     });
   }
-  render(): React.ReactElement {
+  render() {
     const renderAssetRegistration = () => {
       return <><MyAssets updateBalance={this.props.updateBalance} updateAssets={this.props.updateAssets} registeredAssets={this.getAccountAssets()} ethUser={this.props.ethUser} appServiceObj={this.appService}></MyAssets><p></p>
         <RegisterAsset updateBalance={this.props.updateBalance} updateAssets={this.props.updateAssets} registeredAssets={this.props.registeredAssets} ethUser={this.props.ethUser} appServiceObj={this.appService}></RegisterAsset></>;

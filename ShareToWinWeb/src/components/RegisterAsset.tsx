@@ -79,7 +79,7 @@ IGlobalProp,
         break;
     }
   }
-  render(): React.ReactElement {
+  render() {
     const renderRegisterButton = () => {
       return <Button variant="primary" size="sm" onClick={this.onModalToggle} >
         Register New Asset

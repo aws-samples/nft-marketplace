@@ -72,7 +72,7 @@ export default class MyAssets extends React.Component<IGlobalProp,IMyAssetCompon
     this.setState({assetToSale:assetid});
     this.onModalToggle();
   }
-  public render(): React.ReactElement {
+  public render() {
     const renderSaleButton=(assetItem:IAsset)=>{
       if(assetItem.IsAssetOnSale===false){
         return <Button

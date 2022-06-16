@@ -114,7 +114,7 @@ export default class GlobalContext extends React.Component<
       });
     });
   }
-  render(): React.ReactElement {
+  render() {
     const renderUserView = () => {
       if (this.state.userInfo[this.state.currentuserindex] !== undefined) {
 
