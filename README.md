@@ -21,9 +21,9 @@ Clone the repository and run the following commands to setup the code ($ is not 
 $ npm install -g ganache-cli truffle
 $ cd ShareToWinContract
 $ npm install
-$ ../cd ShareToWinRestApi
+$ cd ../ShareToWinRestApi
 $ npm install
-$ ../cd ShareToWinWeb
+$ cd ../ShareToWinWeb
 $ npm install
 $ aws dynamodb create-table --table-name ShareToWin --attribute-definitions AttributeName=AssetID,AttributeType=N --key-schema AttributeName=AssetID,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 
 ```
